@@ -171,7 +171,7 @@ This project implements a scalable, high-availability, serverless web hosting so
 
 ---
 
-## 👤 Author
+##  Author
 
 **Mukwaya Lwere**  
 *Senior IT Program Manager | Scrum Master | GRC & Cloud Security Leader*  

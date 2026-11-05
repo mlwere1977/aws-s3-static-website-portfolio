@@ -1,0 +1,16 @@
+# Terraform local files
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform.lock.hcl
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large Video files (recommended to host on S3 or Git LFS)
+*.mov
+# Keep small demo mp4 or ignore if large
+# *.mp4

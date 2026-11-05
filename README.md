@@ -94,7 +94,7 @@ This project implements a scalable, high-availability, serverless web hosting so
 
 ---
 
-## 🛠️ Step-by-Step Deployment Guide
+##  Step-by-Step Deployment Guide
 
 ### Option A: Automated Infrastructure as Code (Terraform)
 

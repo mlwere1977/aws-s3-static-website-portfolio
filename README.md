@@ -10,7 +10,7 @@ An enterprise-ready cloud architecture and deployment showcase demonstrating sec
 
 ---
 
-## 🎯 Architectural Overview
+##  Architectural Overview
 
 This project implements a scalable, high-availability, serverless web hosting solution on AWS without requiring dedicated web servers (EC2 / Apache / Nginx), significantly reducing operational overhead and hosting costs.
 
@@ -48,7 +48,7 @@ This project implements a scalable, high-availability, serverless web hosting so
 
 ---
 
-## 🚀 Key Technical Competencies Demonstrated
+##  Key Technical Competencies Demonstrated
 
 ### 1. Amazon S3 Architecture & Global Namespace
 * **Bucket Naming & DNS Resolution:** Understands why S3 bucket names must be globally unique across all AWS accounts and regions (rooted in global DNS naming standards and ARN routing: `arn:aws:s3:::bucket-name`).
@@ -69,7 +69,7 @@ This project implements a scalable, high-availability, serverless web hosting so
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```
 .
@@ -153,7 +153,7 @@ This project implements a scalable, high-availability, serverless web hosting so
 
 ---
 
-## 🌐 Dynamic DNS Masking (No-IP Setup)
+##  Dynamic DNS Masking (No-IP Setup)
 
 1. Register a free hostname at [No-IP](https://www.noip.com/) (e.g. `my-resume.ddns.net`).
 2. Select Record Type: **URL / Web Redirect**.
@@ -163,7 +163,7 @@ This project implements a scalable, high-availability, serverless web hosting so
 
 ---
 
-## 🧪 Verification & Health Check
+##  Verification & Health Check
 
 * **Direct S3 Endpoint:** `http://<bucket-name>.s3-website-us-east-1.amazonaws.com`
 * **Masked Domain:** `http://<custom-hostname>.ddns.net`
